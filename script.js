@@ -26,8 +26,8 @@ function updateDisplay(value) {
 
     if (value === ',') {
         value = '.';
-        let lastNumber = display.innerText.split(/[-+*/]/).pop();
-        if (lastNumber === '' || lastNumber.includes('.') || errorState) return;
+        // let lastNumber = display.innerText.split(/[-+*/]/).pop();
+        // if (lastNumber === '' || lastNumber.includes('.') || errorState) return;
     }
 
     if (value === '%') {
